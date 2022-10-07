@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, input, textarea, select {
+  font-size: 13px;
+  color: #363636;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+html {
+  font-size: 100%
+}
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary, title {
+  display: block
+}
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+fieldset, img {
+  border: 0
+}
+ol, ul {
+  list-style: none
+}
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline
+}
+sup {
+  top: -0.5em
+}
+sub {
+  bottom: -0.25em
+}
+a img {
+  border: 0;
+  display: block
+}
+a:active, a:focus, a:hover, input[type="image"], select:focus, input, input[type="button"]:focus, :focus {
+  outline: 0;
+  text-decoration: none;
+}
+.clearfix {
+  *zoom: 1
+}
+a:hover, a:focus {
+  color: #333;
+}
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: "";
+  line-height: 0
+}
+.clearfix:after {
+  clear: both
+}
+img {
+  max-width: 100%;
+}
+body {
+    background-color: #fae4d5;
+}
+/*****************/
+.link-01 a {
+    width: 146px;
+    height: 66px; 
+    display: block;
+    margin: 0 0 20px 0;
+}
+.linkds {
+    position: absolute;
+    top: 216px;
+    left: 0;
+	z-index: 9;
+    width: 1320px;
+    right: 0;
+    margin: auto;
+}
+.link-01 {
+    display: inline-block;
+    vertical-align: top;
+    margin: -9px 0 0 151px;
+}
+.link-01-1 a:nth-child(3) {
+    margin-top: -11px;
+}
+
+.link-01-1 a:nth-child(4) {
+    margin-top: -3px;
+}
+
+.link-01-1 a:nth-child(5) {
+    margin-top: -11px;
+}
+.link-01.link-02 { 
+    margin-top: 55px;
+    margin-left: 142px;
+}
+
+.link-01.link-02 a:nth-child(2) {
+    margin: -5px 0 15px 0;
+}
+
+.link-01-1 a:nth-child(2) {
+    margin-top: -5px;
+}
+.link-01.link-03 {
+    margin: 70px 0 0 37px;
+}
+.link-01.link-03 a {
+    width: 135px;
+}
+.link-01.link-04 {
+    margin: 59px 0 0 80px;
+}
+.link-01.link-05 {
+    margin: -77px 24px 0 0px;
+    float: right;
+}
+
+.link-01.link-05 a:nth-child(2) {
+    margin: -14px 0 7px 0;
+}
+.link-01.link-05 a:nth-child(3) {
+    margin: 0 0 7px 0;
+    height: 55px;
+}
+.link-01.link-05 a:nth-child(4) {
+    margin: 86px 0 8px 0;
+    height: 60px;
+}
+
+.link-01.link-05 a:nth-child(5) {
+    margin: 13px 0 0 0;
+}
+.link-01.link-03 a {
+    margin-top: -8px;
+    width: 135px;
+    margin-left: -7px;
+}
+.link-01.link-05 {
+    margin: -81px 50px 0 0px;
+    float: right;
+}
+.modal-open .modal-dialog {
+    width: 80%;
+}
+.link-01 a:hover {
+    background-color:black;
+    filter: blur(5px);
+	opacity: .3;
+}
